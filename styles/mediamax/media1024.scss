@@ -1,0 +1,50 @@
+@media screen and (min-width: 769px) and (max-width: 1919px) { 
+    body {
+        background-size: 260%;
+        background-position-x: 50%;
+         
+        header {    
+            .header-div {
+                max-width: 660px;
+    
+                .logo {
+                    font-size: 40px;
+                }
+    
+                .gb {
+                    font-size: 30px;
+                }
+            }
+        }
+    
+        .body-div {
+            max-width: 660px;
+            max-height: 457px;
+   
+            .answers {
+                max-width: 372px;
+            }
+    
+            button {
+                font-size: 25px;
+            }
+    
+            .title {
+                font-size: 30px;
+            }
+    
+            p {
+                font-size: 45px;
+            }
+    
+            #timer {   
+                .congrats {
+                    font-size: 80px;
+                }    
+            }
+            .diff {
+                font-size: 35px;
+            }
+        }    
+    }
+}

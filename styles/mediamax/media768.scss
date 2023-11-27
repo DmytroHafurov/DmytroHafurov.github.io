@@ -1,0 +1,85 @@
+@media screen and (min-width: 421px) and (max-width: 768px) { 
+    body {
+        background-size: 400%;
+        background-position-x: 40%;
+
+        header {
+            height: 64px;
+            .header-div {
+                max-width: 310px;
+                .logo {
+                    font-size: 30px !important;
+                }
+                .gb {
+                    font-size: 16px;                    
+                }
+            }
+        }
+
+        .body-div {
+            width: 330px;
+            height: 296px;
+
+            margin: 220px auto 60px auto;
+            padding: 40px 40px 35px 40px;
+    
+            .answers {
+                max-width: 247px;
+            }
+    
+            button {
+                width: 113px;
+                height: 56px;
+                border-radius: 15px;
+                font-size: 16px;
+            }
+    
+            .title {
+                font-size: 16px;
+            }
+    
+            .big {
+                width: 200px;
+                left: calc(50% - 100px);
+            }
+    
+            p {
+                font-size: 30px;
+                margin-bottom: 30px;            
+            }
+    
+            #timer {
+                width: 174px;
+                #hours, #minutes {
+                    &::before {
+                        margin-right: -66px;
+                        margin-bottom: 6px;
+                    }
+                }
+                
+                .congrats {
+                    font-size: 40px;
+                }
+                .count-box {
+                    font-size: 20px;
+                    width: 40px;
+                    height: 40px;
+                    margin-bottom: 26px;
+                }
+            }
+            .diff {
+                font-size: 25px;
+            }    
+        }
+
+        .background-woman {
+            img {
+                height: 401px;
+                width: 320px;
+            }
+
+            top: 26px;
+            left: calc(50% - 160px);    
+        }
+    }
+}
